@@ -1,6 +1,9 @@
 # vim: ai:et:sts=2:ts=2:sw=2
 exports.config =
   # See http://brunch.readthedocs.org/en/latest/config.html for documentation.
+  modules:
+    definition: false
+    wrapper: false
   paths:
     public: "_public/"
   files:
