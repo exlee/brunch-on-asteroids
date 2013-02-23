@@ -17,6 +17,8 @@ exports.config =
         before: [
           'vendor/scripts/jquery/jquery-1.9.1.js'
           'vendor/scripts/angular/angular.js'
+          'vendor/angularui/angular-ui.js'
+          'vendor/angularui/angular-ui-ieshiv.js'
           'vendor/scripts/bootstrap/bootstrap-transition.js'
           'vendor/scripts/bootstrap/bootstrap-alert.js'
           'vendor/scripts/bootstrap/bootstrap-button.js'
@@ -30,6 +32,7 @@ exports.config =
           'vendor/scripts/bootstrap/bootstrap-tab.js'
           'vendor/scripts/bootstrap/bootstrap-typeahead.js'
           'vendor/scripts/bootstrap/bootstrap-affix.js'
+          'vendor/angularbs/ui-bootstrap-tpls-0.1.0.js'
           'app/scripts/init.coffee'
           'app/scripts/routes.coffee'
           'app/scripts/controllers/*'
