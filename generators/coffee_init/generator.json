@@ -1,0 +1,7 @@
+{
+    "files": [{
+        "from": "init.coffee.hbs",
+        "to": "app/scripts/init.coffee"
+    }],
+    "dependencies": []
+}
