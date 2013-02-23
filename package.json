@@ -1,12 +1,12 @@
 {
-  "author": "Your Name",
-  "name": "package-name",
-  "description": "Package description",
+  "author": "Przemysław Kamiński",
+  "name": "brunch-on-asteroids",
+  "description": "Brunch with AngularJS, Twitter Bootstrap + Bootswatch, SASS and CoffeeScript/LiveScript enabled and optional modules",
   "version": "0.0.1",
-  "homepage": "",
+  "homepage": "https://github.com/exlee/brunch-on-asteroids",
   "repository": {
 	"type": "git",
-	"url": ""
+	"url": "https://github.com/exlee/brunch-on-asteroids"
   },
   "engines": {
 	"node": "~0.6.10 || 0.8 || 0.9"
