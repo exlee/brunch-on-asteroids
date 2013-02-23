@@ -14,14 +14,33 @@ exports.config =
         'test/javascripts/test.js': /^test(\/|\\)(?!vendor)/
         'test/javascripts/test-vendor.js': /^test(\/|\\)(?=vendor)/
       order:
-        before: []
+        before: [
+          'vendor/scripts/jquery/jquery-1.9.1.js'
+          'vendor/scripts/bootstrap/bootstrap-transition.js'
+          'vendor/scripts/bootstrap/bootstrap-alert.js'
+          'vendor/scripts/bootstrap/bootstrap-button.js'
+          'vendor/scripts/bootstrap/bootstrap-carousel.js'
+          'vendor/scripts/bootstrap/bootstrap-collapse.js'
+          'vendor/scripts/bootstrap/bootstrap-dropdown.js'
+          'vendor/scripts/bootstrap/bootstrap-modal.js'
+          'vendor/scripts/bootstrap/bootstrap-tooltip.js'
+          'vendor/scripts/bootstrap/bootstrap-popover.js'
+          'vendor/scripts/bootstrap/bootstrap-scrollspy.js'
+          'vendor/scripts/bootstrap/bootstrap-tab.js'
+          'vendor/scripts/bootstrap/bootstrap-typeahead.js'
+          'vendor/scripts/bootstrap/bootstrap-affix.js'
+        ]
+        after: []
 
     stylesheets:
       joinTo:
         'css/app.css': /^(app|vendor)(?:\/|\\)[^_]/
         'test/stylesheets/test.css': /^test/
       order:
-        before: []
+        before: [
+          'vendor/styles/bootstrap.less'
+          'vendor/styles/bootstrap-responsive.less'
+        ]
         after: []
 
     templates:

@@ -1,0 +1,7 @@
+{
+    "files": [],
+    "dependencies": [
+        { "name": "index_default", "params": "{{name}}" },
+        { "name": "bootstrap", "params": "default" }
+    ]
+}

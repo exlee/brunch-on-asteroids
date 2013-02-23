@@ -1,0 +1,7 @@
+{
+    "files": [{
+        "from": "bootstrap.less.hbs",
+        "to": "vendor/styles/bootstrap.less"
+    }],
+    "dependencies": []
+}
