@@ -15,5 +15,12 @@ node_modules
 npm-debug.log
 
 _public
+app/assets/*.html
+app/assets/**/*.html
 .DS_Store
 **/.DS_Store
+
+# This ones are generated, so we ignore them
+vendor/styles/bootstrap.less
+app/index.jade
+app/scripts/init.coffee
