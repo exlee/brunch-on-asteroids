@@ -1,0 +1,10 @@
+{
+  "files": [
+    {
+      "from": "index.jade.hbs",
+      "to": "app/index.jade"
+    }
+  ],
+  "dependencies": [
+  ]
+}

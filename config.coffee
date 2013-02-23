@@ -1,3 +1,4 @@
+# vim: ai:et:sts=2:ts=2:sw=2
 exports.config =
   # See http://brunch.readthedocs.org/en/latest/config.html for documentation.
   paths:
@@ -5,8 +6,8 @@ exports.config =
   files:
     javascripts:
       joinTo:
-        'javascripts/app.js': /^app/
-        'javascripts/vendor.js': /^vendor(?:\/|\\)[^_]/
+        'js/app.js': /^app/
+        'js/vendor.js': /^vendor(?:\/|\\)[^_]/
         'test/javascripts/test.js': /^test(\/|\\)(?!vendor)/
         'test/javascripts/test-vendor.js': /^test(\/|\\)(?=vendor)/
       order:
@@ -14,11 +15,14 @@ exports.config =
 
     stylesheets:
       joinTo:
-        'stylesheets/app.css': /^(app|vendor)(?:\/|\\)[^_]/
+        'css/app.css': /^(app|vendor)(?:\/|\\)[^_]/
         'test/stylesheets/test.css': /^test/
       order:
         before: []
         after: []
 
     templates:
-      joinTo: 'javascripts/app.js'
+      joinTo: 'js/templates.js'
+  plugins:
+    jade:
+      pretty: yes
