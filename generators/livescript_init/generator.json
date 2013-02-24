@@ -1,0 +1,7 @@
+{
+    "files": [{
+        "from": "init.ls.hbs",
+        "to": "app/scripts/init.ls"
+    }],
+    "dependencies": []
+}

@@ -1,0 +1,7 @@
+{
+    "files": [],
+    "dependencies": [
+        { "name": "index_default", "params": "{{name}}" },
+        { "name": "livescript_init", "params": "{{name}}" }
+    ]
+}
