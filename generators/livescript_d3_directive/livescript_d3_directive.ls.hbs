@@ -1,0 +1,35 @@
+angular_app.directive('{{name}}', ->
+  restrict: 'E'
+  replace: false
+  scope:
+    dt: "="
+  link: (scope, element, attrs, controller) ->
+
+    width = 100px
+    height = 100px
+    padding = 30px
+
+    vis = {}
+    init = false
+
+    scope.$watch("dt", (o,n)->
+      # Draw logic here
+    ,true)
+
+    init = !->
+      # Drawing initialization
+      # Should be run only once
+      return if init
+      init := true
+      vis := d3.select(element[0])
+        .append \svg
+        .attr \width  width
+        .attr \height height
+      draw()
+
+    draw = !->
+      # Re-draw procedures here
+      return
+
+    init()
+)

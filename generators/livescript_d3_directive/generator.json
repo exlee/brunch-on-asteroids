@@ -1,0 +1,7 @@
+{
+    "files": [{
+        "from": "livescript_d3_directive.ls.hbs",
+        "to": "app/scripts/directives/{{name}}.ls"
+    }],
+    "dependencies": []
+}
