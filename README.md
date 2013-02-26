@@ -45,6 +45,18 @@ Also in, but untested:
 ### How extras work
 Each extra is already configured in `config.coffee` (i.e. properly positioned during CSS/JS join). To enable it, just change directory name in `vendor` from `_extra_library` to `extra_library`. And that's it!
 
+## Similar Brunches
+
+- [Angular-Brunch-Seed][seed] by [@scotch][scotch] - Feature rich Angular brunch was inspiration in many aspects for brunch-on-asteroid 
+- [Livescript][livescript] by [@clkao][clkao] - Twitter Bootstrap in Sass, LiveScript
+- [True North][truenorth] by [@scoarescoare][scoarescoare] - Built on the amazing Brunch with Angular skeleton with a few tweaks including: Compass, Bootstrap SASS, HTML5BP
+
 [brunchang]: https://github.com/scotch/angular-brunch-seed
+[seed]: https://github.com/scotch/angular-brunch-seed
+[scotch]: https://github.com/scotch
+[livescript]: https://github.com/clkao/angular-brunch-seed-livescript
+[clkao]: https://github.com/clkao
+[truenorth]: https://github.com/scoarescoare/angular-brunch-true-north
+[scoarescoare]: https://github.com/scoarescoare
 
 
