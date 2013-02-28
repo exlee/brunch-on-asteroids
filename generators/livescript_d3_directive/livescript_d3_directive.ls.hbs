@@ -10,7 +10,7 @@ angular_app.directive('{{name}}', ->
     padding = 30px
 
     vis = {}
-    init = false
+    init_semaphore = false
 
     scope.$watch("dt", (o,n)->
       # Draw logic here
@@ -19,8 +19,9 @@ angular_app.directive('{{name}}', ->
     init = !->
       # Drawing initialization
       # Should be run only once
-      return if init
-      init := true
+      return if init_semaphore
+      init_semaphore := true
+
       vis := d3.select(element[0])
         .append \svg
         .attr \width  width
