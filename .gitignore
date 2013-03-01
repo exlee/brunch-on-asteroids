@@ -22,5 +22,3 @@ app/assets/**/*.html
 
 # This ones are generated, so we ignore them
 vendor/styles/bootstrap.less
-app/index.jade
-app/scripts/init.coffee
