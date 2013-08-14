@@ -1,13 +1,18 @@
 Brunch on Asteroids
 ============
 
+## Requirements
+
+1. [Scaffolt][scaffolt] (`npm install -g scaffolt`)
+*(works without it however is needed for generators)*
+
 ## Usage
 
 1. Start new app
 ``brunch new YourAppName -s https://github.com/exlee/brunch-on-asteroids``
 2. Generate style file
-``brunch generate bootstrap THEME``
-3. Generate index.jade, init.coffee by ``brunch generate quickstart YourAppName``
+``scaffolt bootstrap THEME``
+3. Generate index.jade, init.coffee by ``scaffolt quickstart YourAppName``
 
 And voila - you're done!  For themes check `/vendor/_bootswatch/` directory. You can also use default one.
 
@@ -58,5 +63,6 @@ Each extra is already configured in `config.coffee` (i.e. properly positioned du
 [clkao]: https://github.com/clkao
 [truenorth]: https://github.com/scoarescoare/angular-brunch-true-north
 [scoarescoare]: https://github.com/scoarescoare
+[scaffolt]: https://github.com/paulmillr/scaffolt
 
 
